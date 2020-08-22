@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Panther's Den</title>
+  <link rel="stylesheet" href="rosterPage.css">
+</head>
+<body>
+
+  <h1>The Panther's Den</h1>
+
+  <div class="side1">
+  </div>
+  <div class="side2">
+  </div>
+  <div class="topNav">
+    <a href="homePage.html">Home</a>
+    <a class="active" href="rosterPage.html">Roster</a>
+    <a href="cap">Cap Room</a>
+    <a href="coachesPage.html">Coaches</a>
+    <a href="history">History</a>
+    <a href="about">About</a>
+  </div>
+
+  <h3>The 53 man roster of the Carolina Panthers! You can sort it by category
+    by clicking the category header.
+  </h3>
+
+  <h2> Active Roster </h2>
+  <table id="activeTable">
+
+    <tr>
+      <th><button onclick="sortActiveNumber()">Number</button></th>
+      <th><button onclick="sortActiveName()">Name</button></th>
+      <th><button onclick="sortActivePosition()">Position</button></th>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Will Grier</td>
+      <td>Quarterback</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Joey Slye</td>
+      <td>Kicker</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Michael Palardy</td>
+      <td>Punter</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Kyle Allen</td>
+      <td>Quarterback</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Curtis Samuel</td>
+      <td>Wide Receiver</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Brandon Zylstra</td>
+      <td>Wide Receiver</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>DJ Moore</td>
+      <td>Wide Receiver</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Jarius Wright</td>
+      <td>Wide Receiver</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>DeAndrew White</td>
+      <td>Wide Receiver</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Donte Moncrief</td>
+      <td>Wide Receiver</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Jordan Scarlett</td>
+      <td>Runningback</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Christian McCaffrey</td>
+      <td>Runningback</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Javien Elliot</td>
+      <td>Cornerback</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>James Bradberry</td>
+      <td>Cornerback</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Eric Reid</td>
+      <td>Safety</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Donte Jackson</td>
+      <td>Cornerback</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Mike Davis</td>
+      <td>Runningback</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Rashaan Gaulden</td>
+      <td>Safety</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Corn Elder</td>
+      <td>Cornerback</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Cole Luke</td>
+      <td>Defensiveback</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>Tre Boston</td>
+      <td>Safety</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>Reggie Bonnafon</td>
+      <td>Runningback</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>Alex Armah</td>
+      <td>Fullback</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>Colin Jones</td>
+      <td>Safety</td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>Jordan Kunaszyk</td>
+      <td>Linebacker</td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>JJ Jansen</td>
+      <td>Long Snapper</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>Ross Cockrell</td>
+      <td>Cornerback</td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td>Christian Miller</td>
+      <td>Linebacker/Defensive End</td>
+    </tr>
+    <tr>
+      <td>53</td>
+      <td>Brian Burns</td>
+      <td>Linebacker/Defensive End</td>
+    </tr>
+    <tr>
+      <td>54</td>
+      <td>Shaq Thompson</td>
+      <td>Linebacker</td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>Bruce Irvin</td>
+      <td>Linebacker/Defensive End</td>
+    </tr>
+    <tr>
+      <td>56</td>
+      <td>Jermaine Carter</td>
+      <td>Linebacker</td>
+    </tr>
+    <tr>
+      <td>57</td>
+      <td>Andre Smith</td>
+      <td>Linebacker</td>
+    </tr>
+    <tr>
+      <td>59</td>
+      <td>Luke Kuechly</td>
+      <td>Linebacker</td>
+    </tr>
+    <tr>
+      <td>60</td>
+      <td>Daryl Williams</td>
+      <td>Tackle</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>Matt Paradis</td>
+      <td>Center</td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>Dennis Daley</td>
+      <td>Tackle</td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>Tyler Larson</td>
+      <td>Center</td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>Trai Turner</td>
+      <td>Guard</td>
+    </tr>
+    <tr>
+      <td>72</td>
+      <td>Taylor Moton</td>
+      <td>Tackle</td>
+    </tr>
+    <tr>
+      <td>73</td>
+      <td>Greg Van Roten</td>
+      <td>Guard</td>
+    </tr>
+    <tr>
+      <td>74</td>
+      <td>Greg Little</td>
+      <td>Tackle</td>
+    </tr>
+    <tr>
+      <td>77</td>
+      <td>Kyle Love</td>
+      <td>Defensive Tackle</td>
+    </tr>
+    <tr>
+      <td>80</td>
+      <td>Ian Thomas</td>
+      <td>Tight End</td>
+    </tr>
+    <tr>
+      <td>82</td>
+      <td>Chris Manhertz</td>
+      <td>Tight End</td>
+    </tr>
+    <tr>
+      <td>88</td>
+      <td>Greg Olsen</td>
+      <td>Tight End</td>
+    </tr>
+    <tr>
+      <td>92</td>
+      <td>Vernon Butler</td>
+      <td>Defensive Tackle</td>
+    </tr>
+    <tr>
+      <td>93</td>
+      <td>Gerald McCoy</td>
+      <td>Defensive Tackle</td>
+    </tr>
+    <tr>
+      <td>94</td>
+      <td>Efe Obada</td>
+      <td>Defensive End</td>
+    </tr>
+    <tr>
+      <td>95</td>
+      <td>Dontari Poe</td>
+      <td>Defensive Tackle</td>
+    </tr>
+    <tr>
+      <td>96</td>
+      <td>Wes Horton</td>
+      <td>Defensive End</td>
+    </tr>
+    <tr>
+      <td>97</td>
+      <td>Mario Addison</td>
+      <td>Linebacker/Defensive End</td>
+    </tr>
+    <tr>
+      <td>98</td>
+      <td>Marquis Haynes</td>
+      <td>Linebacker/Defensive End</td>
+    </tr>
+  </table>
+
+  <h2> Injured Reserve </h2>
+
+  <table id="injuredTable">
+    <tr>
+      <th><button onclick="sortInjuredNumber()">Number</button></th>
+      <th><button onclick="sortInjuredName()">Name</button></th>
+      <th><button onclick="sortInjuredPosition()">Position</button></th>
+    </tr><tr>
+      <td>1</td>
+      <td>Cam Newton</td>
+      <td>Quaraterback</td>
+    </tr><tr>
+      <td>9</td>
+      <td>Graham Gano</td>
+      <td>Kicker</td>
+    </tr><tr>
+      <td>15</td>
+      <td>Chris Hogan</td>
+      <td>Wide Receiver</td>
+    </tr><tr>
+      <td>30</td>
+      <td>Natrell Jamerson</td>
+      <td>Defensiveback</td>
+    </tr><tr>
+      <td>66</td>
+      <td>Dillon Gordon</td>
+      <td>Tackle</td>
+    </tr><tr>
+      <td>75</td>
+      <td>Brandon Greene</td>
+      <td>Guard</td>
+    </tr><tr>
+      <td>77</td>
+      <td>Kitt O'Brien</td>
+      <td>Guard</td>
+    </tr><tr>
+      <td>85</td>
+      <td>Marcus Baugh</td>
+      <td>Tight End</td>
+    </tr><tr>
+      <td>99</td>
+      <td>Kawann Short</td>
+      <td>Defensive Tackle</td>
+    </tr>
+  </table>
+
+<script>
+
+function sortActiveNumber()
+{
+  var table, rows, sorting, i, x, y, sort;
+  table = document.getElementById("activeTable");
+  sorting = true;
+
+  while (sorting)
+  {
+    sorting = false;
+    rows = table.rows;
+
+    for (i = 1; i < (rows.length - 1); i++)
+    {
+      sort = false;
+      x = rows[i].getElementsByTagName("TD")[0];
+      y = rows[i + 1].getElementsByTagName("TD")[0];
+
+      if (parseInt(x.innerHTML) > parseInt(y.innerHTML))
+      {
+        sort = true;
+        break;
+      }
+    }
+    if (sort)
+    {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      sorting = true;
+    }
+  }
+}
+
+function sortActiveName()
+{
+  var table, rows, sorting, i, x, y, sort;
+  table = document.getElementById("activeTable");
+  sorting = true;
+
+  while (sorting)
+  {
+    sorting = false;
+    rows = table.rows;
+
+    for (i = 1; i < (rows.length - 1); i++)
+    {
+      sort = false;
+      x = rows[i].getElementsByTagName("TD")[1];
+      y = rows[i + 1].getElementsByTagName("TD")[1];
+
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase())
+      {
+        sort = true;
+        break;
+      }
+    }
+    if (sort)
+    {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      sorting = true;
+    }
+  }
+}
+
+function sortActivePosition()
+{
+  var table, rows, sorting, i, x, y, sort;
+  table = document.getElementById("activeTable");
+  sorting = true;
+
+  while (sorting)
+  {
+    sorting = false;
+    rows = table.rows;
+
+    for (i = 1; i < (rows.length - 1); i++)
+    {
+      sort = false;
+      x = rows[i].getElementsByTagName("TD")[2];
+      y = rows[i + 1].getElementsByTagName("TD")[2];
+
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase())
+      {
+        sort = true;
+        break;
+      }
+    }
+    if (sort)
+    {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      sorting = true;
+    }
+  }
+}
+
+function sortInjuredNumber()
+{
+  var table, rows, sorting, i, x, y, sort;
+  table = document.getElementById("injuredTable");
+  sorting = true;
+
+  while (sorting)
+  {
+    sorting = false;
+    rows = table.rows;
+
+    for (i = 1; i < (rows.length - 1); i++)
+    {
+      sort = false;
+      x = rows[i].getElementsByTagName("TD")[0];
+      y = rows[i + 1].getElementsByTagName("TD")[0];
+
+      if (parseInt(x.innerHTML) > parseInt(y.innerHTML))
+      {
+        sort = true;
+        break;
+      }
+    }
+    if (sort)
+    {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      sorting = true;
+    }
+  }
+}
+
+function sortInjuredName()
+{
+  var table, rows, sorting, i, x, y, sort;
+  table = document.getElementById("injuredTable");
+  sorting = true;
+
+  while (sorting)
+  {
+    sorting = false;
+    rows = table.rows;
+
+    for (i = 1; i < (rows.length - 1); i++)
+    {
+      sort = false;
+      x = rows[i].getElementsByTagName("TD")[1];
+      y = rows[i + 1].getElementsByTagName("TD")[1];
+
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase())
+      {
+        sort = true;
+        break;
+      }
+    }
+    if (sort)
+    {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      sorting = true;
+    }
+  }
+}
+
+function sortInjuredPosition()
+{
+  var table, rows, sorting, i, x, y, sort;
+  table = document.getElementById("injuredTable");
+  sorting = true;
+
+  while (sorting)
+  {
+    sorting = false;
+    rows = table.rows;
+
+    for (i = 1; i < (rows.length - 1); i++)
+    {
+      sort = false;
+      x = rows[i].getElementsByTagName("TD")[2];
+      y = rows[i + 1].getElementsByTagName("TD")[2];
+
+      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase())
+      {
+        sort = true;
+        break;
+      }
+    }
+    if (sort)
+    {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      sorting = true;
+    }
+  }
+}
+
+</script>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Panther's Den</title>
+<link rel="stylesheet" href="coachesPage.css">
+</head>
+<body>
+
+  <h1>The Panther's Den</h1>
+  <div class="side1">
+  </div>
+  <div class="side2">
+  </div>
+  <div class="bottomImage">
+    <img id = "Ron" src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_6_desktop/f_auto/panthers/rdhtlitibgtyuwrlmukt.jpg" alt="Ron Rivera" style = "display:none;"/>
+    <img id = "Norv" src="https://static.clubs.nfl.com/image/private/t_headshot_desktop/f_auto/panthers/iwc7gk478m3aiesdu8iq.jpg" alt="Norv Turner" style = "display:none;"/>
+    <img id = "Eric" src="https://static.clubs.nfl.com/image/private/t_headshot_desktop/f_auto/panthers/hfglu1ybandoh4xboana.jpg" alt="Eric Washington" style = "display:none;"/>
+    <img id = "Chase" src="https://static.clubs.nfl.com/image/private/t_headshot_desktop/f_auto/panthers/lnrkbk57iunnf8pb5bsg.jpg" alt="Chase Blackburn" style = "display:none;"/>
+  </div>
+  <div class="topNav">
+    <a href="homePage.html">Home</a>
+    <a href="rosterPage.html">Roster</a>
+    <a href="cap">Cap Room</a>
+    <a class="active" href="coachesPage.html">Coaches</a>
+    <a href="history">History</a>
+    <a href="about">About</a>
+  </div>
+
+
+
+  <h2> The head coach and coordinators of the Carolina Panthers! </h2>
+
+  <div class="table">
+  <table id="coachesTable">
+
+    <tr>
+      <th>Position</th>
+      <th>Name</th>
+      <th>Years as Panthers Coach</th>
+    </tr>
+    <tr>
+      <td><button onClick = "showRon()">Head Coach</td></button>
+      <td><button onClick = "showRon()">Ron Rivera</td></button>
+      <td><button onClick = "showRon()">2011-2019</td></button>
+    </tr>
+    <tr>
+      <td><button onClick = "showNorv()">Offensive Coordinator</td></button>
+      <td><button onClick = "showNorv()">Norv Turner</td></button>
+      <td><button onClick = "showNorv()">2018-2019</td></button>
+    </tr>
+    <tr>
+      <td><button onClick = "showEric()">Defensive Coordinator</td></button>
+      <td><button onClick = "showEric()">Eric Washington</td></button>
+      <td><button onClick = "showEric()">2018-2019</td></button>
+    </tr>
+    <tr>
+      <td><button onClick = "showChase()">Special Teams Coordinator</td></button>
+      <td><button onClick = "showChase()">Chase Blackburn</td></button>
+      <td><button onClick = "showChase()">2018-2019</td></button>
+    </tr>
+  </table>
+  </div>
+
+<script>
+
+function showRon()
+{
+  document.getElementById('Ron').style.display='block';
+  document.getElementById('Norv').style.display="none";
+  document.getElementById('Eric').style.display="none";
+  document.getElementById('Chase').style.display="none";
+}
+function showNorv()
+{
+  document.getElementById('Ron').style.display="none";
+  document.getElementById('Norv').style.display='block';
+  document.getElementById('Eric').style.display="none";
+  document.getElementById('Chase').style.display="none";
+}
+function showEric()
+{
+  document.getElementById('Ron').style.display="none";
+  document.getElementById('Norv').style.display="none";
+  document.getElementById('Eric').style.display='block';
+  document.getElementById('Chase').style.display="none";
+}
+function showChase()
+{
+  document.getElementById('Ron').style.display="none";
+  document.getElementById('Norv').style.display="none";
+  document.getElementById('Eric').style.display="none";
+  document.getElementById('Chase').style.display='block';
+}
+
+</script>
