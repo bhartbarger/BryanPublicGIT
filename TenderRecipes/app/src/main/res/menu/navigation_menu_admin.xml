@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Pages">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item android:id="@+id/nav_recipes"
+                    android:icon="@drawable/ic_myrecipes"
+                    android:title="My saved Recipes" />
+
+                <item android:id="@+id/nav_allRecipes"
+                    android:icon="@drawable/ic_allrec"
+                    android:title="All Recipes" />
+
+                <item android:id="@+id/nav_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:title="Settings" />
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Actions">
+
+        <menu>
+            <item android:id="@+id/nav_deleteRecipes"
+                android:icon="@drawable/ic_delete"
+                android:title="Delete/Favorite Recipes" />
+
+            <item android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logoff"
+                android:title="Log Out" />
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "381366402637",
+    "firebase_url": "https://tenderrecipes.firebaseio.com",
+    "project_id": "tenderrecipes",
+    "storage_bucket": "tenderrecipes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381366402637:android:75bea9c897dbdf7257e604",
+        "android_client_info": {
+          "package_name": "com.example.tenderrecipes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381366402637-2ae1ni917jasdqbm0d54ij4jrt585cpj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tenderrecipes",
+            "certificate_hash": "95bc168b797bfd9ef2eba138fd2da2a81571053d"
+          }
+        },
+        {
+          "client_id": "381366402637-gcno3b3c9ho87omtckl8up44i8g7vlj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTixHWS4EpwRfUzFAIvEZtUet2-b3yPkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381366402637-gcno3b3c9ho87omtckl8up44i8g7vlj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
